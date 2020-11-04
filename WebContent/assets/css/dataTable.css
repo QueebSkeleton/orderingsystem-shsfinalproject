@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#dataTable {
+	table-layout: fixed;
+}
+
+#dataTable thead th {
+	font-size: 13px;
+	white-space: nowrap;
+}
+
+#dataTable thead th div.DataTables_sort_wrapper {
+	position: relative;
+	padding-right: 20px;
+	padding-right: 20px;
+}
+
+#dataTable thead th div.DataTables_sort_wrapper span {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+}
+
+#dataTable td {
+	width: 160px;
+	height: 15px;
+	font-size: 13px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}

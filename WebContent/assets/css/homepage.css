@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.bg-1 {
+	background-image: url('../../assets/img/Home-Background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: white;
+	
+	padding: 90px;
+}
